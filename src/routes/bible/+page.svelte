@@ -38,7 +38,7 @@
 
         
 </script>
-<div class="flex flex-col content-center h-screen justify-between">   
+<div class="flex flex-col content-center h-screen justify-between bg-background">   
     <div class="flex justify-center ">
         <a href="/" class="self-center text-xl text-white text-center p-6">back</a>
         <h1 class="self-center text-6xl text-white text-center p-6">{title}</h1>
