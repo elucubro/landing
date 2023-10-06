@@ -7,7 +7,7 @@
 <div class="self-start w-screen max-w-full fixed top-0"><Nav/></div>
 <div class="grid h-screen justify-center items-center">
 <div class="rounded-3xl self-center justify-self-center">
-    <h1 class="text-white text-center md:text-8xl font-poppins font-semibold">Hey! I'm <span class="text-transparent bg-gradient-to-r from-primary to-accent bg-clip-text">Tinotenda.</span></h1>
+    <h1 class="text-white text-center text-6xl md:text-8xl font-poppins font-semibold">Hey! I'm <span class="text-transparent bg-gradient-to-r from-primary to-accent bg-clip-text">Tinotenda.</span></h1>
     <h2 class="text-white text-center md:text-2xl mt-5">freelance full-stack developer | crafting digital experiences</h2>
 </div>
 </div>
