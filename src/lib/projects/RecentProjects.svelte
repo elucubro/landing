@@ -17,7 +17,7 @@
     const SimFinMan=[DiPython, DiScriptcs, DiReact]
 </script>
 
-<div class="max-w-full flex flex-col lg:grid p-10 w-full h-full mt-5 lg:grid-cols-3 lg:grid-rows-2 gap-5">
+<div class="max-w-full flex flex-col lg:grid p-10 w-full h-full my-5 lg:grid-cols-3 lg:grid-rows-2 gap-5">
 <IndividualProject desc="An SMTP/IMAP email client with a built in SMTP server implementation" title="TinotendaSMTP" link_href="https://github.com/elucubro" logo_array={tinoSMTP}/>
 <IndividualProject desc="A low latency audio transmission system for my band's remote practices" title="InfinityCall" link_href="https://github.com/elucubro" logo_array={infinityCall}/>
 <IndividualProject desc="A web utility that manages bash scripts to control basic local CI/CD" title="Tiny-CI/CD" link_href="https://github.com/elucubro" logo_array={tinoCI}/>
