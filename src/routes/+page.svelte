@@ -5,14 +5,20 @@
 
     // get current year
     let year = new Date().getFullYear();
+
+    let visible = false; 
+    function togglevisibility(){
+        visible = !visible
+    }
 </script> 
 
 <div class="w-screen max-w-full h-screen bg-background">
 <div class="self-start w-screen max-w-full fixed top-0"><Nav/></div>
 <div class="grid h-screen justify-center items-center">
-<div class="rounded-3xl self-center justify-self-center">
+<div class="rounded-3xl flex flex-col justify-center items-center self-center justify-self-center">
     <h1 class="text-white text-center text-6xl md:text-8xl font-poppins font-semibold">Hey! I'm <span class="text-transparent bg-gradient-to-r from-primary to-accent bg-clip-text">Tinotenda.</span></h1>
     <h2 class="text-white text-center md:text-2xl mt-5">freelance full-stack developer | crafting digital experiences</h2>
+    <button class="w-80 h-20 rounded-3xl text-2xl text-white font-poppins border-primary border-solid border-4 mt-5">Contact Me!</button>
 </div>
 </div>
 </div>

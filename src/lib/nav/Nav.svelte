@@ -7,7 +7,7 @@
     <a href="/about"><div class="transition hover:transition md:h-20 md:w-20 hover:text-xl  text-white text-center flex flex-col justify-center content-center"><h1>about</h1></div></a>
     <a href="/why"><div class="transition hover:transition md:h-20 md:w-20 hover:text-xl text-white text-center flex flex-col justify-center content-center"><h1>why</h1></div></a>
     <a href="/how"><div class="transition hover:transition md:h-20 md:w-20 hover:text-xl text-white text-center flex flex-col justify-center content-center"><h1>how</h1></div></a>
-    <a href="/pricing" class="ml-auto"><div class="transition hover:transition md:h-20 md:w-20 hover:text-xl text-white text-center flex flex-col justify-center content-center pr-20"><h1>contact</h1></div></a>
+    <a href="/contact" class="ml-auto"><div class="transition hover:transition md:h-20 md:w-20 hover:text-xl text-white text-center flex flex-col justify-center content-center pr-20"><h1>contact</h1></div></a>
 </div>
 
 <style>

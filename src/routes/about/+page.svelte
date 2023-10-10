@@ -42,7 +42,7 @@
     <div class="p-10 gap-10 flex flex-col justify-start w-full h-full">
         <p class="text-2xl font-sans text-white">I've always liked programming, sort of treating it like a ridiculous sandbox game. It's really fun and I always feel really accomplished whenever the empty neovim window turns into a full featured project.</p>
         <p class="text-2xl font-sans text-white">So, I guess that you could say even beyond just a position, I enjoy programming as a hobby. It's kind of like how some people enjoy building physical structure and the accomplishment that comes with that. Even though programming is relatively new, considering it only really became prominent in the 20th century, I think it taps into an intrinsic value that comes with being human, just that desire to create.</p>
-        <p class="text-2xl font-sans text-white">After that, I really wanted to learn how to make websites, because I thought it would be cool to have my own personal website (here we are)! This is when I stumbled upon <a class="text-primary" href="https://theodinproject.com">The Odin Project.</a> This really made me understand how to become a front-end developer, and made me understand lots of key javascript concepts.</p>
+        <p class="text-2xl font-sans text-white">Thank you for reading this far!</p>
         </div>
 </div>
 </div>
