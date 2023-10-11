@@ -2,6 +2,7 @@
     import Nav from "$lib/nav/Nav.svelte";
     import RecentProjects from "$lib/projects/RecentProjects.svelte";
     import Pricing from "$lib/pricing/Pricing.svelte";
+	import { goto } from "$app/navigation";
 
     // get current year
     let year = new Date().getFullYear();
@@ -10,6 +11,7 @@
     function togglevisibility(){
         visible = !visible
     }
+    
 </script> 
 
 <div class="w-screen max-w-full h-screen bg-background">

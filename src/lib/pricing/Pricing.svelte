@@ -1,6 +1,11 @@
 <script>
 	import FaCheck from 'svelte-icons/fa/FaCheck.svelte';
     import { onMount } from 'svelte';
+	
+	import { goto } from '$app/navigation';
+	function gotoContact(){
+        goto("/contact")
+    }
 </script>
 
 <div
@@ -34,7 +39,7 @@ class="max-w-full flex flex-col lg:grid p-10 w-full h-full lg:grid-cols-3 lg:gri
 				<p>Search Engine Optimization</p>
 			</div>
 		</ul>
-        <button class="mt-auto w-[50%] bg-primary grid justify-center text-2xl font-poppins rounded-2xl items-center h-[15%] text-white">Contact Me!</button>
+        <button class="mt-auto w-[50%] bg-primary grid justify-center text-2xl font-poppins rounded-2xl items-center h-[15%] text-white" on:click={gotoContact}>Contact Me!</button>
 	</div>
 	<!-- Advanced Tier -->
 	<div
@@ -63,7 +68,7 @@ class="max-w-full flex flex-col lg:grid p-10 w-full h-full lg:grid-cols-3 lg:gri
 				<p>Complete Strategic Design</p>
 			</div>
 		</ul>
-        <button class="mt-auto w-[50%] bg-primary grid justify-center text-2xl font-poppins rounded-2xl items-center h-[15%] text-white">Contact Me!</button>
+        <button class="mt-auto w-[50%] bg-primary grid justify-center text-2xl font-poppins rounded-2xl items-center h-[15%] text-white" on:click={gotoContact}>Contact Me!</button>
 	</div>
 	<!-- Premium Tier -->
 	<div
@@ -92,6 +97,6 @@ class="max-w-full flex flex-col lg:grid p-10 w-full h-full lg:grid-cols-3 lg:gri
 				<p>Cost Minimization Services</p>
 			</div>
 		</ul>
-        <button class="mt-auto w-[50%] bg-primary grid justify-center text-2xl font-poppins rounded-2xl items-center h-[15%] text-white">Contact Me!</button>
+        <button class="mt-auto w-[50%] bg-primary grid justify-center text-2xl font-poppins rounded-2xl items-center h-[15%] text-white" on:click={gotoContact}>Contact Me!</button>
 	</div>
 </div>
